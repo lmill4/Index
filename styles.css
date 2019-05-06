@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: darkblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: ;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightsteelblue;
+}
+
+body{
+	background-color: lightyellow
+}
+p {
+  font-family: Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif'
+}
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+} 
+
+
+/* Yahoo */
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}
